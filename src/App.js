@@ -1,7 +1,12 @@
+import Counter from "./components/Counter";
+import Todos from "./components/Todos";
+
 function App() {
   return (
     <>
-      <div>start</div>
+      <Counter number={0} />
+      <hr />
+      <Todos />
     </>
   );
 }
